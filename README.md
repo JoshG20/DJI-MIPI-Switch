@@ -18,4 +18,7 @@ V1.1: Fixes V1.0 issues (UNTESTED)
 V2.0: Integrated PWM reading (PLANNED)
 -Replaces Pololu RCS01B with integrated PWM reading circuit based on the work of Ken Hewitt at HewittOnline.net. The circuit has a variable resistor for adjusting the PWM threshold.
 
+Current Pinout Reference:
+![DJI MIPI Pinout](https://github.com/user-attachments/assets/962b1f98-0d47-4575-b036-7b70cad809e5)
+
 
