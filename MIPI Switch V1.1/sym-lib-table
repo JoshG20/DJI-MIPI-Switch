@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DF56C-26S-0_3V_51_")(type "KiCad")(uri "${KIPRJMOD}/lib/DF56C-26S-0.3V_51_/KiCad/DF56C-26S-0_3V_51_.kicad_sym")(options "")(descr ""))
+  (lib (name "RCS01B")(type "KiCad")(uri "${KIPRJMOD}/lib/RCS01B/RCS01B.kicad_sym")(options "")(descr ""))
+  (lib (name "PI3WVR646GEEX")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_PI3WVR646GEEX/PI3WVR646GEEX/KiCad/PI3WVR646GEEX.kicad_sym")(options "")(descr ""))
+)

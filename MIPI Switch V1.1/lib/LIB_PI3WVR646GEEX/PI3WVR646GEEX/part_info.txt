@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=PI3WVR646GEEX
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=36
+Version=5.4
+Released=2024-02-17 03:42:50
+Downloaded=2024-08-16 01:07:27
+3D=Y
