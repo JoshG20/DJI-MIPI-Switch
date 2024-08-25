@@ -2,7 +2,7 @@
 2-Camera Input MIPI Switch for Caddx Vista/DJI Air Unit/Runcam Link systems
 
 
-V1.0: Initial Revision (INACTIVE)
+## V1.0: Initial Revision (INACTIVE)
 
 ![image](https://github.com/user-attachments/assets/19f00abc-7030-4193-8217-5f199d6d0264)
 
@@ -15,7 +15,7 @@ Note: This board does not pass through the I2C pins, which means cameras that re
 Note: This board is a prototype, function is not guaranteed. (Spoiler: V1.0 did not function)
 
 
-V1.1: Fixes V1.0 issues (UNTESTED)
+## V1.1: Fixes V1.0 issues (UNTESTED)
 
 ![image](https://github.com/user-attachments/assets/c56ef4ff-1371-4ec6-afa3-4b5e3d338c48)
 
@@ -24,13 +24,15 @@ V1.1: Fixes V1.0 issues (UNTESTED)
 -Added 20 x 20 mm mounting holes for flexibility
 
 
-V2.0: Integrated PWM reading (PLANNED)
+## V2.0: Integrated PWM reading (PLANNED)
 
 ![image](https://github.com/user-attachments/assets/7d2e885b-008b-4283-9f1c-ce7dbccf6577)
 
 -Replaces Pololu RCS01B with integrated PWM reading circuit based on the work of Ken Hewitt at HewittOnline.net. The circuit has a variable resistor for adjusting the PWM threshold.
 
-Current Pinout Reference:
-![DJI MIPI Pinout](https://github.com/user-attachments/assets/962b1f98-0d47-4575-b036-7b70cad809e5)
+# Current Pinout Reference:
+
+![DJI MIPI Pinout](https://github.com/user-attachments/assets/92999fe0-bf99-419b-b137-15249c2e8324)
+
 
 
