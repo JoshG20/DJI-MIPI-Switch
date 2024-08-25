@@ -12,7 +12,7 @@ Routing is all length and impedence matched within each connector path. The 3 di
 The selection between A and B cameras is controlled by a Pololu RCS01B, which provides a user adjustable PWM threshhold.
 This PCB has 25.5 x 25.5mm mounting holes to match the Caddx Vista and Runcam Link VTX.
 Note: This board does not pass through the I2C pins, which means cameras that require configuration will not work. Only 60fps cameras are supported.
-Note: This board is a prototype, function is not guaranteed. (Spoiler: V1.0 did not function)
+Note: This board is now INACTIVE. Pinout is incorrect.
 
 
 ## V1.1: Fixes V1.0 issues (UNTESTED)
@@ -22,13 +22,18 @@ Note: This board is a prototype, function is not guaranteed. (Spoiler: V1.0 did 
 -Fixed incorrect assumption that the DJI MIPI Coaxial Cable uses a 1-1 pin configuration. This means that pin 1 on the VTX footprint connects to pin 1 on the Camera. In reality, the cable is a 1-n or 1-26 configuration, which flips the pin numbering on one end. VTX-CAM = one flip, so VTX-PCB-CAM needs 3 to match. Therefore V1.1 has mirrored connector pinouts on the camera output connectors, leading to the correct orientation at all stages.
 -Improved the silkscreen labeling on the board, including marking the orientation of the PWM input
 -Added 20 x 20 mm mounting holes for flexibility
+Note: Do not use the pinout in this schematic, it has the MIPI lanes in the wrong order and polarity. It does not affect the function of this board, but only because this chip has interchangeable lanes.
+Note: This board is a prototype, function is not guaranteed.
 
 
 ## V2.0: Integrated PWM reading (PLANNED)
 
 ![image](https://github.com/user-attachments/assets/7d2e885b-008b-4283-9f1c-ce7dbccf6577)
 
+-Fixed MIPI lane order and polarity on the connectors, but it is now reversed on the chip to avoid rerouting. Again not an issue on this chip.
 -Replaces Pololu RCS01B with integrated PWM reading circuit based on the work of Ken Hewitt at HewittOnline.net. The circuit has a variable resistor for adjusting the PWM threshold.
+-Replaces 2.54mm pin header with smaller but still common JST SH1.0
+-Stretch goal: I2C handling
 
 # Current Pinout Reference:
 
